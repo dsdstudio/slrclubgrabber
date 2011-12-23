@@ -26,7 +26,7 @@ Egit Plugin으로 추가하시면 돼요 ^^
 
 	slrclubgrabber$>java -jar target/slrclubgrabber-0.1.jar
 
-	Usage: java -jar slrgrabber.jar <id> <password> <savefilepath> <keyword>    
-	예제) java -jar slrgrabber.jar userid password c:/jogong jogong     
+	Usage: java -jar slrclubgrabber.jar <id> <password> <savefilepath> <keyword>    
+	예제) java -jar slrclubgrabber.jar userid password c:/jogong jogong     
 
 실행하면 가장 최근데이터부터 설정한 디렉토리에 데이터를 수집합니다. 
