@@ -29,4 +29,6 @@ Egit Plugin으로 추가하시면 돼요 ^^
 	Usage: java -jar slrclubgrabber.jar <id> <password> <savefilepath> <keyword>    
 	예제) java -jar slrclubgrabber.jar userid password c:/jogong jogong     
 
-실행하면 가장 최근데이터부터 설정한 디렉토리에 데이터를 수집합니다. 
+설정한 키워드로 검색된 게시물의 이미지를 설정한 디렉토리에다 차곡차곡 쌓아줍니다 :) 
+
+Enjoy! 
