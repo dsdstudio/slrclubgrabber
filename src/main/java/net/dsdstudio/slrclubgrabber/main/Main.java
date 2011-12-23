@@ -110,12 +110,13 @@ public class Main {
 		method.addParameter("password", password);
 		try {
 			this.client.executeMethod(method);
-			if (StringUtils.contains(method.getResponseBodyAsString(), "false")) {
+			String resultstr = method.getResponseBodyAsString();
+			if (StringUtils.contains(resultstr, "alert")) {
 				throw new RuntimeException(
 						"Login Failed.. check your id and password.");
 			}
 			System.out.println("Login Success! userid["
-					+ this.context.getUserid() + "]");
+					+ this.context.getUserid() + "] \n" + resultstr);
 		} catch (HttpException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
