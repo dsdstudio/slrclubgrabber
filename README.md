@@ -1,5 +1,8 @@
 ## 자게이를 위해 재미로 만든 Slrclub 자유게시판 이미지 수집기입니다 
 
+Eclipse Package로 구성되어있습니다. 
+
+Egit Plugin으로 추가하시면 돼요 ^^ 
 
 ### 사용기술 
 
@@ -10,10 +13,20 @@
 
 ### 빌드방법 
 
-Maven 2.2+ , Java 1.6이상이 설치되어있어야 합니다. 
+선행 요구사항 : git client Maven 2.2+ , Java 1.6이상이 설치되어있어야 합니다. 
 
+	$>git clone git@github.com:dsdstudio/slrclubgrabber.git
+	$>cd slrclubgrabber
 	slrclubgrabber$> mvn clean package
 
-빌드후 outputfile이 생기는데 이것으로 실행합니다. 
 
+### 실행방법 
 
+빌드절차를 거친후 아래 명령으로 수행할수 있습니다. 
+
+	slrclubgrabber$>java -jar target/slrclubgrabber-0.1.jar
+
+	Usage: java -jar slrgrabber.jar <id> <password> <savefilepath> <keyword>    
+	예제) java -jar slrgrabber.jar userid password c:/jogong jogong     
+
+실행하면 가장 최근데이터부터 설정한 디렉토리에 데이터를 수집합니다. 
