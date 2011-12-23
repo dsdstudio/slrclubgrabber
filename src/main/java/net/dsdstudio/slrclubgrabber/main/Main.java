@@ -8,8 +8,8 @@ import java.util.List;
 
 import net.dsdstudio.slrclubgrabber.logic.SlrGrabParser;
 import net.dsdstudio.slrclubgrabber.util.LoggerUtil;
-import net.dsdstudio.slrgrabber.context.SlrGrabContext;
-import net.dsdstudio.slrgrabber.context.UrlContext;
+import net.dsdstudio.slrclubgrabber.context.SlrGrabContext;
+import net.dsdstudio.slrclubgrabber.context.UrlContext;
 
 import org.apache.commons.httpclient.HttpClient;
 import org.apache.commons.httpclient.HttpException;

@@ -3,7 +3,7 @@ package net.dsdstudio.slrclubgrabber.logic;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.dsdstudio.slrgrabber.context.UrlContext;
+import net.dsdstudio.slrclubgrabber.context.UrlContext;
 
 import org.apache.commons.httpclient.HttpClient;
 import org.apache.commons.httpclient.methods.GetMethod;

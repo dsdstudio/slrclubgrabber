@@ -1,4 +1,4 @@
-package net.dsdstudio.slrgrabber.context;
+package net.dsdstudio.slrclubgrabber.context;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
